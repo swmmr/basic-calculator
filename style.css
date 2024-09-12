@@ -1,0 +1,60 @@
+.container {
+    width: 50%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(236, 236, 158);
+}
+
+.display {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 2.5px;
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: white;
+}
+
+button {
+    background-color: rgb(255, 255, 207);
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+}
+
+.digit {
+    width: 32%;
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+.operations {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.operator {
+    width: 48%;
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+.zero, .evaluate {
+    width: 98%;
+}
+
+
