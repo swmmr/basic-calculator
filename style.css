@@ -6,6 +6,7 @@
     padding: 10px;
     margin: auto;
     background-color: rgb(236, 236, 158);
+    margin-top: 100px;
 }
 
 .display {
@@ -13,12 +14,16 @@
     padding: 8px;
     border-radius: 2.5px;
     margin-bottom: 10px;
-    text-align: right;
     background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 button {
     background-color: rgb(255, 255, 207);
+    height: 50px;
 }
 
 .buttons {
@@ -53,7 +58,7 @@ button {
     margin: 2px;
 }
 
-.zero, .evaluate {
+.zero, .evaluate, .clear {
     width: 98%;
 }
 
